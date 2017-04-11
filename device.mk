@@ -24,3 +24,11 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 include $(LOCAL_PATH)/product/*.mk
 
 $(call inherit-product-if-exists, vendor/xiaomi/ferrari/ferrari-vendor.mk)
+
+# Telephony-ext
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
+
+# Charger
+PRODUCT_PACKAGES += \
+charger_res_images
