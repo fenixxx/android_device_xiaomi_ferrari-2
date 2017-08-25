@@ -32,3 +32,6 @@ PRODUCT_BOOT_JARS += telephony-ext
 # Charger
 PRODUCT_PACKAGES += \
 charger_res_images
+
+# Dex
+WITH_DEXPREOPT := false
